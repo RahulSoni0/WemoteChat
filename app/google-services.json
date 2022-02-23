@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750348015019",
+    "project_id": "wemotechat",
+    "storage_bucket": "wemotechat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750348015019:android:ed3963d47703c91d5a2eee",
+        "android_client_info": {
+          "package_name": "com.example.wemotechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750348015019-3qiap5b0aeh1fbuki09oeiu5e2t9mcud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIwnN4mUo1yW6j1_EvUpq2xjwFgGvhubk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750348015019-3qiap5b0aeh1fbuki09oeiu5e2t9mcud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
