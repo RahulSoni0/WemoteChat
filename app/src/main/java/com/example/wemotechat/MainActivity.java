@@ -14,11 +14,13 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -48,8 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
+   // for send notfication
+        // add sdk ( Cloud Messaging )
+        //get its instance and
+        // make any topic so making it easy to filter target
+   FirebaseMessaging.getInstance().subscribeToTopic("notifications");
 
     discussions = findViewById(R.id.lvDiscussionTopics);
     arrayAdapter = new ArrayAdapter(this , android.R.layout.simple_list_item_1, listofdiscussion);
